@@ -167,7 +167,7 @@ class CarInterface(CarInterfaceBase):
       ret.vEgoStopping = 0.25
       ret.vEgoStarting = 0.25
       ret.stopAccel = -0.40
-      ret.stoppingDecelRate = 0.40
+      ret.stoppingDecelRate = 0.05
 
     #default tuning
     def apply_default_tuning():
