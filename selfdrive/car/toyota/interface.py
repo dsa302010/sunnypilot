@@ -164,9 +164,9 @@ class CarInterface(CarInterfaceBase):
     tune = ret.longitudinalTuning
     # handtuned
     def apply_tss2_car_tuning():
-      ret.vEgoStopping = 0.25
-      ret.vEgoStarting = 0.25
-      ret.stopAccel = -0.40
+      ret.vEgoStopping = 0.15
+      ret.vEgoStarting = 0.15
+      ret.stopAccel = -1.1
       ret.stoppingDecelRate = 0.05
 
     #default tuning
